@@ -1,0 +1,4 @@
+export const InputConstString = {
+  CITYSTRING: 'CITYSTRING',
+  COUNTRYSTRING: 'COUNTRYSTRING'
+}

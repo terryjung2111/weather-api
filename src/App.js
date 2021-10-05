@@ -1,9 +1,10 @@
 import React from 'react'
+import BodyComponent from './screens/body/BodyComponent'
 
 const App = () => {
   return (
     <div>
-      Hello
+      <BodyComponent/>
     </div>
   )
 }

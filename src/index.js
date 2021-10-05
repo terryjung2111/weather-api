@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+require('dotenv').config();
+
+export const apiAddress = process.env.REACT_APP_WEATHER_API_ADDRESS;
+export const apiKey = process.env.REACT_APP_PRIVATE_KEY;
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
